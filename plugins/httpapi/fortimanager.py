@@ -69,7 +69,7 @@ class HttpApi(HttpApiBase):
         self._adom_list = list()
         self._logged_in_user = None
         if not HAS_FORTIMANAGER_COLLECTION:
-            raise AnsibleError("The community.network.fortimanager httpapi plugin requires the fortios.fortimanager collection.")
+            raise AnsibleError("The community.fortios.fortimanager httpapi plugin requires the fortios.fortimanager collection.")
 
     def set_become(self, become_context):
         """
