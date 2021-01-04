@@ -10,6 +10,7 @@ authors:
   - Jim Huber (github.com/p4r4n0y1ng)
 description: modules for management of FortiOS devices
 dependencies:
+  ansible.netcommon: '>=1.0.0'
   fortinet.fortios: '>=1.0.0'
 license_file: LICENSE
 tags:
