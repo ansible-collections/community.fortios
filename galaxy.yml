@@ -1,0 +1,26 @@
+# See https://docs.ansible.com/ansible/latest/dev_guide/collections_galaxy_meta.html
+
+namespace: community
+name: fortios
+version: 0.1.0
+readme: README.md
+authors:
+  - Luke Weighall (github.com/lweighall)
+  - Andrew Welsh (github.com/Ghilli3)
+  - Jim Huber (github.com/p4r4n0y1ng)
+description: modules for management of FortiOS devices
+dependencies:
+  ansible.netcommon: '>=1.0.0'
+  fortinet.fortios: '>=1.0.0'
+license_file: LICENSE
+tags:
+  - community
+  - fortios
+repository: https://github.com/ansible-collections/community.fortios
+#documentation: https://github.com/ansible-collection-migration/community.fortios/tree/main/docs
+homepage: https://github.com/ansible-collections/community.fortios
+issues: https://github.com/ansible-collections/community.fortios/issues
+build_ignore:
+  # https://docs.ansible.com/ansible/devel/dev_guide/developing_collections.html#ignoring-files-and-folders
+  - .gitignore
+  - changelogs/.plugin-cache.yaml
