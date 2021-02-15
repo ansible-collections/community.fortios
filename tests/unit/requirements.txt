@@ -1,4 +1,4 @@
 unittest2 ; python_version <= '2.6'
 
 # requirements for FortiManager modules
-pyFMG
+pyFMG == 0.6.2 # newer versions do not pass current unit tests
