@@ -71,11 +71,11 @@ class HttpApi(HttpApiBase):
         """
         return None
 
-    def update_auth(self, response, response_data):
+    def update_auth(self, response, response_text):
         """
         TOKENS ARE NOT USED SO NO NEED TO UPDATE AUTH
         :param response: Unused input.
-        :param response_data Unused_input.
+        :param response_text Unused_input.
         :return: None
         """
         return None
